@@ -1,0 +1,24 @@
+.display-maximum {
+    display: inherit;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.columnaderecha{
+
+  float: left;
+  width: 34%;
+  margin-left: 12px;
+}
+
+.columnaizquierda{
+
+    float: left;
+    width: 65%;
+}

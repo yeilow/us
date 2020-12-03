@@ -1,0 +1,130 @@
+
+.display-maximum {
+    display: none;
+}
+
+.display-medium {
+    display: none;
+}
+
+.display-minimum {
+    display: none;
+}
+.display-print {
+    display: none;
+}
+
+.header {
+    background-color: rgb(95, 29, 29);
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    line-height: 150%;
+
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.topnav a:hover {
+    background-color:white;
+    color:black;
+}
+
+.navvocales {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.navvocales a {
+    float: left ;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 12px;
+}
+.navvocales a:hover {
+        color:rgb(45, 243, 227);
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 5px;
+}
+body 
+    {color:black;
+    background-color: rgb(97, 27, 27);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+ }
+
+ h2 {
+    color: rgb(0, 0, 0) ;
+    font-family: 'Times New Roman', Times, serif;
+
+ }
+
+ h1{
+    color: rgb(255, 255, 255) ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+ }
+ article {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+ }
+
+ nav{
+    overflow: auto;
+ }
+
+ nav a {
+    float: left ;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 7px;
+}
+nav a:hover {
+        color:rgb(46, 44, 167);
+}
+
+figure, iframe{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p{ 
+    color:black;
+}

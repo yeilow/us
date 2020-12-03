@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+        <title>Formulario 1</title>
+        <link rel="stylesheet" href="../estiloformulario.css">
+        <link rel="stylesheet" href="../estilos.css">
+	</head>
+
+	<body"> 
+        <div class="header">
+			<h1> ENCICLOPEDIA DE SALUD </h1>
+			<a href="../index.html"><img src="medical-cross-3-1211403.jpg" height="100" width="200" alt="icono de la encilopedia de salud"/></a>
+		</div>
+		<div class="topnav">
+			
+			  <a href="../index.html">Inicio</a>
+			  <a href="../Sobrenosotros/sobrenosotros.html">Sobre nosotros</a>
+              <a href="../mapasitioweb/mapa.html">Mapa de la página web</a>
+        </div>
+        <h1>Formulario de contacto</h1>
+        <article>
+            <p>Esta página contiene un formulario en el que el usuario tiene la posibilidad de introducir información</p>
+
+            <div class="formu">
+                <form action="Respuestacontacto/Respuestacontacto.html" method="get">
+                <p>Asunto: <input type="text" name="nombre" id="nombre"></p>
+                <p>Comenarios o preguntas:</p>
+                <p><textarea name="comentarios" rows="10" cols="40"></textarea></p>
+                <p>Fecha de nacimiento: <input type="date" name="fecha" id="fecha"></p>
+                <p>Correo electrónico: <input type="email" name="Correo" id="Correo"></p>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <p><label><input type="radio" name="Sexo" value="Hombre"> Hombre</label></p>
+                    <p><label><input type="radio" name="Sexo" value="Mujer">Mujer</label></p>
+                    <p><label><input type="radio" name="Sexo" value="Otro">Otro</label></p>
+                </fieldset>
+                <p>
+                Yo soy:
+                <select id="OS">
+                    <option label="paciente">Paciente</option> 
+                    <option label="fabricante">Fabricante</option> 
+                    <option label="medico">Médico</option>
+                    <option label="educador">Educador</option> 
+                    <option label="cientifico">Científico</option> 
+                    <option label="periodista">Periodista</option> 
+                </select>
+                </p>
+                <p>
+                <p>
+                Deseo recibir mas información: <input type="checkbox" name="informacion" value="" />
+                </p>
+                    <div class="botones">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>        
+        </article>
+        <div class="footer">
+			<footer>Enciclopedia de salud <br> Javier López <br> Carlos Baeza</footer>
+			</div>
+    </body>
+</html>

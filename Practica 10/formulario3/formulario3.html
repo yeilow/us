@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+        <title>Formulario 3</title>
+        <script src="https://kit.fontawesome.com/95add1b067.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../estiloformulario.css">
+        <link rel="stylesheet" href="../estilos.css">
+        
+	</head>
+
+	<body> 
+        <div class="header">
+			<h1> ENCICLOPEDIA DE SALUD </h1>
+			<a href="../index.html"><img src="medical-cross-3-1211403.jpg" height="100" width="200" alt="icono de la encilopedia de salud"/></a>
+		</div>
+		<div class="topnav">
+			
+			  <a href="../index.html">Inicio</a>
+			  <a href="../Sobrenosotros/sobrenosotros.html">Sobre nosotros</a>
+              <a href="../mapasitioweb/mapa.html">Mapa de la página web</a>
+            </div>
+        <main>
+            <h1>Formulario de salud</h1>
+        <article>
+            <h3>Esta página contiene un formulario en el que el usuario tiene la posibilidad de introducir su información clínica. Deberás responder de forma obligatoria alguno de los campos para poder enviar el formulario.</h3>
+            <div class="formu">
+                <form action="respuestasalud/respuestasalud.html" method="get">
+                <p>Nombre completo <i class="far fa-address-card"></i><input type="text" name="nombre" id="nombre" placeholder="Monica Galindo Lopez"></p>    
+                <p>¿Cuánta fiebre tienes o has llegado a tener?: <input type="number" name="fiebre" id="fiebre" placeholder="37" step="0.1" min="35" max="43" required></p>
+                <p>En caso de dolor de cabeza, introduzca el grado de dolor que siente en una escala del 1 al 10: <input type="range" name="grado_dolor" id="grado_dolor" min="1" max="10"></p>
+                <p>¿Qué te ocurre?:</p>
+                <p><textarea name="comentarios" rows="10" cols="40"></textarea></p>
+                <p>Fecha de nacimiento <i class="far fa-calendar-alt"></i> <input type="date" name="fecha" id="fecha" required></p>
+                <p>Correo electrónico <i class="fas fa-at"></i> <input type="email" name="Correo" id="Correo" placeholder="yeilou@gmail.com" required></p>
+                <p>Número de teléfono <i class="fas fa-mobile-alt"></i> <input type="tel" name="numero_telefono" id="numero_telefono" pattern="[0-9]{9}" title="Debes incluir un número de 9 dígitos" placeholder="627653422" required></p>
+                <fieldset>
+                    <legend> Sexo </legend> 
+                            <p><label><input type="radio" name="Sexo" value="Hombre"> Hombre <i class="fas fa-male"></label></i></p>
+                            <p><label><input type="radio" name="Sexo" value="Mujer">Mujer <i class="fas fa-female"></label></i></p>
+                            <p><label><input type="radio" name="Sexo" value="Otro">Otro <i class="fas fa-plane"></label></i></p>        
+                </fieldset>
+                <p>Color de ojos: <input type="color" name="color_ojos" id="color_ojos" ></p>
+                <input type="submit" value="Enviar">
+                </form>
+            </div>  
+            </article> 
+        </main>
+        <footer>Enciclopedia de salud <br> Javier López <br> Carlos Baeza</footer>
+    </body>
+</html>

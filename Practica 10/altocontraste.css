@@ -1,0 +1,106 @@
+
+
+.header {
+    background-color: rgb(0, 247, 255);
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+   font-family: 'Times New Roman', Times, serif ;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: white;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.topnav a:hover {
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+.navvocales {
+    overflow: hidden;
+    background-color: rgb(238, 153, 153);
+}
+.navvocales a {
+    float: left ;
+    display: block;
+    color: rgb(230, 224, 154);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 12px;
+}
+.navvocales a:hover {
+        color:rgb(0, 0, 0);
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(49, 48, 48);
+    margin-top: 5px;
+    color: white;
+}
+body 
+    { background-color: rgb(233, 223, 223);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+ }
+
+ h2 {
+    color: rgb(255, 255, 255) ;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ h3{
+     color:white
+ }
+
+ h1{
+    color: rgb(0, 0, 0) ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+ }
+
+ article {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 10px;
+ }
+
+ nav{
+    overflow: auto;
+ }
+
+ nav a {
+    float: left ;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 7px;
+}
+nav a:hover {
+        color:rgb(156, 126, 42);
+}
+
+a {
+    color: rgb(230, 224, 154)
+}
+
+p{
+    color:white;
+}
